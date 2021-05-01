@@ -105,7 +105,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Illustrator Example"
       subtitle = ""
-      image = "pic03.jpg"
+      image = "illustrator-example.jpg"
       url = "pages/illustrator-example"
 
     [[params.tiles.showcase]]
@@ -117,8 +117,8 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Audition Example"
       subtitle = ""
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
+      image = "microphone.jpg"
+      url = "pages/audition-example"
 
 
   [params.blog]
