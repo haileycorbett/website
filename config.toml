@@ -47,16 +47,12 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+      name = "Contact Me"
+      url = "pages/contact-me"
 
     [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
-
-    [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+      name = "All Pages"
+      url = "pages"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -65,15 +61,6 @@ disqusShortname = ""
     #    name = "NameOfLink"
     #    url = "UrlOfLink"
 
-    # Button Style 1
-    [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
-
-    # Button Style 2
-    [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
 
 
   # Banner section
@@ -165,21 +152,11 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
-
-    [[params.contact.phone]]
-    title = "Phone"
-    phone = "(000) 000-0000 x1234"
-
-    [[params.contact.address]]
-    title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    email = "hailey and r with corbett 'at' gmail.com"
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = "Hailey Corbett"
 
     # Uses font awesome icons
