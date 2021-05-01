@@ -156,7 +156,7 @@ disqusShortname = ""
 
   # Footer section
   [params.footer]
-    enable = false
+    enable = true
     copyright = "Hailey Corbett"
 
     # Uses font awesome icons
@@ -177,7 +177,7 @@ disqusShortname = ""
 
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com"
+      url= "https://github.com/haileycorbett"
       label = "GitHub"
 
     [[params.footer.social]]
