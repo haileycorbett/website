@@ -22,7 +22,7 @@ disqusShortname = ""
   description = "Portfolio website"
 
   # Link custom assets relative to /static
-  custom_css = []
+  custom_css = ["css/custom.css"]
   custom_js  = []
   favicon    = "favicon.ico"
 
@@ -49,6 +49,10 @@ disqusShortname = ""
     [[params.navigation.links]]
       name = "Contact Me"
       url = "pages/contact-me"
+
+    [[params.navigation.links]]
+      name = "Biography"
+      url = "pages/biography"
 
     [[params.navigation.links]]
       name = "All Pages"
@@ -117,15 +121,11 @@ disqusShortname = ""
 
   # Section Type Two
   [params.two]
-    enable = false
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus pharetra.
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    url = "blogs"
+    enable = true
+    title = "About me"
+    subtitle = """If you would like to know a little more about me, feel free to head on over to my biography page."""
+    buttonText = "Biography Page"
+    url = "/pages/biography"
 
 
   # Contact section
@@ -152,7 +152,6 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "hailey and r with corbett 'at' gmail.com"
 
   # Footer section
   [params.footer]
